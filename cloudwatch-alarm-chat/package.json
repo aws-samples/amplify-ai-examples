@@ -1,0 +1,46 @@
+{
+  "name": "cloudwatch-alarm-chat",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@aws-amplify/backend-ai": "^1.0.1",
+    "@aws-amplify/ui-react": "^6.7.0",
+    "@aws-amplify/ui-react-ai": "^1.0.0",
+    "@mantine/core": "^7.14.2",
+    "@mantine/form": "^7.14.3",
+    "@mantine/hooks": "^7.14.2",
+    "@tabler/icons-react": "^3.22.0",
+    "aws-amplify": "^6.9.0",
+    "chart.js": "^4.4.6",
+    "next": "14.2.18",
+    "react": "^18",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18",
+    "react-markdown": "^9.0.1",
+    "rehype-highlight": "^7.0.1"
+  },
+  "devDependencies": {
+    "@aws-amplify/backend": "^1.8.0",
+    "@aws-amplify/backend-cli": "^1.4.2",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "aws-cdk": "^2.170.0",
+    "aws-cdk-lib": "^2.170.0",
+    "constructs": "^10.4.2",
+    "esbuild": "^0.24.0",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.18",
+    "postcss": "^8.4.49",
+    "postcss-preset-mantine": "^1.17.0",
+    "postcss-simple-vars": "^7.0.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
