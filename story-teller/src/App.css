@@ -1,0 +1,31 @@
+#root {
+  margin: 0 auto;
+}
+
+.ai-message__text,
+.amplify-ai-conversation__message__text,
+.amplify-ai-conversation__attachment__name {
+  color: white !important;
+}
+
+.amplify-ai-conversation__message__sender__username {
+  color: white !important;
+}
+
+.amplify-ai-conversation__form__dropzone {
+  background-color: azure !important;
+  background: rgba(0, 0, 0, 0) !important;
+}
+.amplify-textarea {
+  color: white !important;
+  font-size: 1.2rem !important;
+  height: 43px !important;
+}
+
+.amplify-ai-conversation__form__attach {
+  color: white !important;
+}
+
+.amplify-ai-conversation__form__send:disabled {
+  background-color: rgba(0, 0, 0, 0.2);
+}
