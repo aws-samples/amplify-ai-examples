@@ -1,0 +1,52 @@
+{
+  "name": "travel-planner-mobile",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@aws-amplify/react-native": "^1.1.6",
+    "@aws-amplify/ui-react-ai": "^1.2.1",
+    "@aws-amplify/ui-react-native": "^2.3.1",
+    "@react-native-async-storage/async-storage": "^2.1.0",
+    "@react-native-community/netinfo": "^11.4.1",
+    "@react-navigation/bottom-tabs": "^7.2.0",
+    "@react-navigation/native": "^7.0.14",
+    "@react-navigation/native-stack": "^7.2.0",
+    "@react-navigation/stack": "^7.1.1",
+    "aws-amplify": "^6.12.0",
+    "expo": "~52.0.23",
+    "expo-image-picker": "^16.0.3",
+    "expo-status-bar": "~2.0.0",
+    "react": "18.3.1",
+    "react-native": "0.76.5",
+    "react-native-gesture-handler": "^2.21.2",
+    "react-native-get-random-values": "^1.11.0",
+    "react-native-safe-area-context": "^5.0.0",
+    "react-native-screens": "^4.4.0",
+    "react-native-url-polyfill": "^2.0.0"
+  },
+  "devDependencies": {
+    "@aws-amplify/backend": "^1.12.0",
+    "@aws-amplify/backend-cli": "^1.4.6",
+    "@babel/core": "^7.25.2",
+    "@types/react": "~18.3.12",
+    "aws-cdk": "^2.174.0",
+    "aws-cdk-lib": "^2.174.0",
+    "constructs": "^10.4.2",
+    "esbuild": "^0.24.2",
+    "eslint": "^8.57.0",
+    "eslint-config-expo": "~8.0.1",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "prettier": "^3.4.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  },
+  "private": true
+}
