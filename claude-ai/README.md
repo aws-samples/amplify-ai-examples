@@ -2,6 +2,8 @@
 
 This is a NextJS application that is built like Claude.ai or ChatGPT where you can see past conversations and resume conversations.
 
+Watch video explanation: https://www.youtube.com/watch?v=Q7WMOhRILxo
+
 This example uses:
 
 - Amplify Gen2
