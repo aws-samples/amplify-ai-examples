@@ -11,7 +11,7 @@ import {
 } from "@aws-amplify/ui-react";
 import {
   LuCheck,
-  LuMoreVertical,
+  LuEllipsisVertical,
   LuPencil,
   LuTrash2,
   LuX,
@@ -85,7 +85,7 @@ export const ConversationItem = ({
         size="small"
         trigger={
           <MenuButton size="small">
-            <LuMoreVertical />
+            <LuEllipsisVertical />
           </MenuButton>
         }
       >
