@@ -1,0 +1,13 @@
+{
+  "name": "vector-search",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "@aws-sdk/client-bedrock-runtime": "^3.658.1",
+    "@aws-sdk/client-rds-data": "^3.658.1"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.145",
+    "@types/node": "^20.0.0"
+  }
+}
